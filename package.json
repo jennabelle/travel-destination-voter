@@ -4,7 +4,7 @@
   "description": "a full-stack app allowing group of users to live vote their favorite travel destination",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register --recursive"
   },
   "repository": {
     "type": "git",
