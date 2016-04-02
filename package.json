@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive", // use babel to transpile es6 before running
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch" // launch process that watches for changes in code and runs tests after ea change
   },
   "repository": {
     "type": "git",
