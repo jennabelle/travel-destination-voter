@@ -4,7 +4,7 @@
   "description": "a full-stack app allowing group of users to live vote their favorite travel destination",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
