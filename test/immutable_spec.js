@@ -8,6 +8,7 @@ describe('immutability', () => {
 			return currentState++;
 		}
 
+		// state doesn't change when increment is called
 		it ('is immutable', () => {
 			let state = 42;
 			let nextState = increment(state);
