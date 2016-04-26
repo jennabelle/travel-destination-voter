@@ -1,6 +1,8 @@
 /* app allows 'loading in' a collection of entries that will be voted on */
 
-import { List } from 'immutable';
+import { List, Map } from 'immutable';
+
+export const INITIAL_STATE = Map();
 
 // take previous state and collection of entries & produces state where entries are included
 export function setEntries(state, entries) {
@@ -13,7 +15,7 @@ export function next(state) {
 	const entries = state.get('entries').concat(getWinners(state.get('vote')));
 
 	if (entries.size === 1) {
-		return state.remove('vote')
+		return state.remove('vote') // future-proofing
 					.remove('entries')
 					.set('winner', entries.first());
 	}
