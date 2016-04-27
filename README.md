@@ -1,4 +1,4 @@
-# voting-server
+# travel-destination-voter
 
 an app for users to live vote their favorite travel destination
 
