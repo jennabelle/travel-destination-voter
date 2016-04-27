@@ -28,9 +28,9 @@ export function next(state) {
 }
 
 // update tally for ea vote
-export function vote(state, entry) {
-	return state.updateIn(
-		[ 'vote', 'tally', entry ], // reach into this nested data structure path
+export function vote(voteState, entry) {
+	return voteState.updateIn(
+		[ 'tally', entry ], // reach into this nested data structure path
 		0,
 		tally => tally + 1
 	);
