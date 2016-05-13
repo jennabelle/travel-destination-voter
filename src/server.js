@@ -2,5 +2,5 @@ import Server from 'socket.io';
 
 // create a Socket.io server
 export default function startServer() {
-	const io = new Server().attach(8090);
+	const io = new Server().attach(8090); // bound to port 8090
 }
