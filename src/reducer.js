@@ -1,5 +1,6 @@
 import { setEntries, next, vote, INITIAL_STATE } from './core';
 
+// generic reducer function
 export default function reducer(state = INITIAL_STATE, action) {
 	// Figure out which function to call and call it
 
