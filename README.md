@@ -4,7 +4,7 @@ An app for users to live vote their favorite travel destination
 
 # Installing Dependencies
 
-Install all dependencies:
+Install dependencies:
 
     npm install
 
