@@ -1,6 +1,6 @@
-# Travel Destination Voter
+# Travel Destination Voting (Server)
 
-An app for users to live vote their favorite travel destination
+A web app for users to live vote their favorite travel destination.
 
 ## Installing Dependencies
 
