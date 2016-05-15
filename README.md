@@ -8,7 +8,7 @@ Install dependencies:
 
     npm install
 
-Start the server and create redux store:
+Start server and create redux store:
 
     npm run start
 
