@@ -8,4 +8,10 @@ export default function startServer(store) {
 	store.subscribe(
 		() => io.emit('state', store.getState().toJS())
 	);
+
+	// immediately receive current state when connected to app
+	io.on('connection', (socket) => {
+		// emit current state right away
+		socket.emit('state', store.getState().toJS());
+	});
 }
