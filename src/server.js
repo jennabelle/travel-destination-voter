@@ -13,5 +13,7 @@ export default function startServer(store) {
 	io.on('connection', (socket) => {
 		// emit current state right away
 		socket.emit('state', store.getState().toJS());
+		// receive updates from clients, feed directly into our redux store
+		socket.on('action', store.dispatch.bind(store));
 	});
 }
