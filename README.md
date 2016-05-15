@@ -1,12 +1,12 @@
 # travel-destination-voter
 
-an app for users to live vote their favorite travel destination
+An app for users to live vote their favorite travel destination
 
 # installing dependencies
 
     npm install
 
-start the server and create the redux store
+Start the server and create redux store
 
     npm run start
 
@@ -14,4 +14,5 @@ start the server and create the redux store
     react
     redux
     node
+    express
     immutable.js
