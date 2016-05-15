@@ -4,7 +4,11 @@ an app for users to live vote their favorite travel destination
 
 # installing dependencies
 
-    npm run start (create the Redux store)
+    npm install
+
+start the server and create the redux store
+
+    npm run start
 
 # tech stack
     react
