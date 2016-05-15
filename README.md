@@ -1,8 +1,10 @@
-# travel-destination-voter
+# Travel Destination Voter
 
 An app for users to live vote their favorite travel destination
 
 # Installing Dependencies
+
+Install all dependencies:
 
     npm install
 
